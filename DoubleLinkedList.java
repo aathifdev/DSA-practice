@@ -41,6 +41,7 @@ class DoubleLinkedList {
     void insertIndex(int index, int data){
         if (index < 0){
             System.out.println("Invalid Index");
+            return;
         }
         Node temp = head;
         for (int i =0; i < index-1; i++){
